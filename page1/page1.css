@@ -261,7 +261,7 @@ footer li{
     margin-top: -40px;
 
 }
- @media screen and (max-width: 360px) { 
+ @media screen and (max-width: 920px) { 
     header{
         
         background-color: rgb(12, 119, 119);
@@ -272,7 +272,7 @@ footer li{
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
     .logo{
         width:50px; 
         height: 50px;
@@ -286,7 +286,7 @@ footer li{
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
     .topic{
     
         padding: 20px ;
@@ -299,7 +299,7 @@ footer li{
     }
     
  }
- @media screen and (max-width: 360px) { 
+ @media screen and (max-width: 920px) { 
     .nav{
     
         display: flex;
@@ -311,13 +311,13 @@ footer li{
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
     body{
         background-color:rgba(12, 119, 119, 0.726) ;
         border: solid 1px;
     }
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
     .hs{
         margin-top: 110px;
         padding: 10px;
@@ -331,7 +331,7 @@ footer li{
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
     .world{
         width: 320px;
         height:260px ;  
@@ -344,7 +344,7 @@ footer li{
       
       }
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
     .ocean{
     
         width: 320px;
@@ -354,7 +354,7 @@ footer li{
     
  }
  
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
     .Pacific{
 
 
@@ -365,7 +365,7 @@ footer li{
      }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
     .poce{
         text-align: center;
         background-color: rgb(18, 119, 119);
@@ -382,7 +382,7 @@ footer li{
     
 }
     
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
     .ul{
         display: flex;
         flex-wrap: wrap;
@@ -394,7 +394,7 @@ footer li{
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
 
     .pr{
         width: 300px;
@@ -403,14 +403,14 @@ footer li{
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
 
     .prm{
         margin-top:0;
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
     h3, h4{
         font-family: "Spicy Rice", serif ;
         font-size: 30px;
@@ -420,7 +420,7 @@ footer li{
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
     .table{
         display: flex;
         flex-direction: column;
@@ -430,7 +430,7 @@ footer li{
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
     .detail{
         display: flex;
         flex-direction: column;
@@ -443,7 +443,7 @@ footer li{
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
     details{
         margin: 5px;
         
@@ -454,7 +454,7 @@ footer li{
     
  }
  
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
 
 
     footer{
@@ -464,7 +464,7 @@ footer li{
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 920px) {
     .fotul{
         display: flex;
         flex-direction: column;

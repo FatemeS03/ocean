@@ -171,7 +171,7 @@ h1{
     margin-top: 100px;
     margin-bottom: 100px;
 }
-@media screen and (max-width: 360px) { 
+@media screen and (max-width: 430px) { 
     header{
         
         background-color: rgb(12, 119, 119);
@@ -182,7 +182,7 @@ h1{
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 430px) {
     .logo{
         width:50px; 
         height: 50px;
@@ -196,7 +196,7 @@ h1{
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 430px) {
     .topic{
     
         padding: 20px ;
@@ -209,7 +209,7 @@ h1{
     }
     
  }
- @media screen and (max-width: 360px) { 
+ @media screen and (max-width: 430px) { 
     .nav{
     
         display: flex;
@@ -221,13 +221,13 @@ h1{
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 430px) {
     body{
         background-color:rgba(12, 119, 119, 0.726) ;
         border: solid 1px;
     }
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 430px) {
     h1{
     
         font-family: "Spicy Rice", serif;
@@ -236,13 +236,13 @@ h1{
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 430px) {
     .part1{
         gap: 50px;
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 430px) {
 
     .first{
         border: solid 3px;
@@ -258,7 +258,7 @@ h1{
     
     }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 430px) {
 
 
     footer{
@@ -268,7 +268,7 @@ h1{
     }
     
  }
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 430px) {
     
  
     .fotul{
