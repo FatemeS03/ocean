@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width:100px; 
+    height: 100px;
+    /* max-width:  50px; */
+    min-width: 50px;
+    display: inline;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+header{
+    top: 0;
+    background-color: rgb(12, 119, 119);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    
+    
+}
+.nav{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+  
+
+}
+.topic{
+    
+    padding: 20px ;
+    text-decoration: none;
+    font-family: "Spicy Rice", serif;
+    color: rgb(4, 63, 63);
+    font-size: 50px;
+    
+}
+.topic:hover{
+    border: 15px groove rgb(8, 127, 127)  ;
+    
+    background-color:rgb(12, 119, 119) ;
+    border-radius: 10px;
+    color: rgb(23, 169, 169);
+    transition-duration: 2s;
+    margin: 10px;
+    
+
+}
+.logo:hover{
+    transform: scaleX(3) scaleY(3);
+    transition: linear;
+    transition-duration: 3s;
+    margin: 50px;
+    border-radius: 10px;
+    
+
+}
+body{
+    background-color:rgba(12, 119, 119, 0.726) ;
+    border: solid 10px;
+}
+.hs{
+    margin-top: 180px;
+    padding: 10px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    font-family: "Spicy Rice", serif;
+    color: rgb(4, 63, 63);
+    font-size: 20px;
+}
+
+.ocean{
+    
+    width: 730px;
+    border-radius:280px ;
+margin-top: -180px;
+
+    
+    
+
+  
+}
+.world{
+  width: 820px;
+  height:760px ;  
+  border-radius: 320px;
+  position:relative;
+  border: solid 5px black;
+  
+  
+  
+
+}
+.poce{
+    text-align: center;
+    background-color: rgb(18, 119, 119);
+    border: 3px solid;
+display: inline-block;
+position: absolute;
+margin-left: 350px;
+margin-top: -20px;
+z-index: 1;
+padding: 5px;
+font-family: "Spicy Rice", serif;
+font-size: 30px;
+}
+.parent{
+    /* margin-top: 200px; */
+    display: flex;
+height: 950px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid; */
+}
+
+
+.Pacific{
+
+    /* border: 10px solid red; */
+    
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* gap: 30px; */
+    /* margin-left: 50px; */
+    
+    
+ }
+ .paci{
+    width: 320px;
+    height:260px ;
+    border-radius: 300px;
+    border: solid 5px;
+    border-radius: 290px;
+    
+ }
+h2{
+    text-align: center;
+    background-color: rgb(18, 119, 119);
+    border: 3px solid;
+display: inline-block;
+position: absolute;
+
+z-index: 1;
+padding: 5px;
+font-family: "Spicy Rice", serif;
+}
+ 
+.div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+h3, h4{
+    font-family: "Spicy Rice", serif ;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 40px;
+    
+}
+.para{
+    padding: 30px;
+    /* border: solid; */
+}
+.pr{
+    width: 800px;
+    font-family:  "Kalam", "cursive";
+
+}
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.firstp{
+    margin-top: 50px;
+}
+.prm{
+    margin-top: -90px;
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    gap: 50px;
+    height: 900px;
+    width: 1400px;
+    padding: 90px;
+}
+details{
+    margin: 5px;
+    
+    width: 500px;
+
+    
+}
+.spa, .pd{
+    font-family:  "Kalam", "cursive";
+}
+summary{
+    font-weight: bold;
+    font-family:  "Kalam", "cursive";
+}
+
+footer{
+    background-color: rgb(12, 119, 119);
+    height: 300px;
+padding: 50px;
+}
+.fotul{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+footer a{
+    text-decoration: none;
+    color:rgb(4, 63, 63) ;
+}
+.fotli{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+.ulfoot{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 20px;
+}
+footer li{
+    font-family:"Spicy Rice", serif ;
+    color:rgb(4, 63, 63) ;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    gap: 30px;
+
+}
+.table h4{
+    margin-top: -40px;
+
+}
+ @media screen and (max-width: 360px) { 
+    header{
+        
+        background-color: rgb(12, 119, 119);
+        height: 80px;
+        /* width: 360px; */
+        position: fixed;
+        z-index: 2;   
+    }
+    
+ }
+ @media screen and (max-width: 360px) {
+    .logo{
+        width:50px; 
+        height: 50px;
+    
+    margin-top: 15px;
+        display: inline;
+        border: 1px solid;
+     
+    
+        border-radius: 20px;
+    }
+    
+ }
+ @media screen and (max-width: 360px) {
+    .topic{
+    
+        padding: 20px ;
+        text-decoration: none;
+        font-family: "Spicy Rice", serif;
+        color: rgb(4, 63, 63);
+        font-size: 8px;
+        margin-top: 15px;
+        
+    }
+    
+ }
+ @media screen and (max-width: 360px) { 
+    .nav{
+    
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+    
+      
+    
+    }
+    
+ }
+ @media screen and (max-width: 360px) {
+    body{
+        background-color:rgba(12, 119, 119, 0.726) ;
+        border: solid 1px;
+    }
+ }
+ @media screen and (max-width: 360px) {
+    .hs{
+        margin-top: 110px;
+        padding: 10px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+        
+        font-size: 10px;
+    }
+    
+ }
+ @media screen and (max-width: 360px) {
+    .world{
+        width: 320px;
+        height:260px ;  
+        border-radius: 320px;
+        position:relative;
+        border: solid 5px black;
+        
+        
+        
+      
+      }
+ }
+ @media screen and (max-width: 360px) {
+    .ocean{
+    
+        width: 320px;
+        border-radius:280px ;
+    margin-top: -580px;
+    }
+    
+ }
+ 
+ @media screen and (max-width: 360px) {
+    .Pacific{
+
+
+        flex-direction: column;
+        margin-top: -600px;
+        
+        
+     }
+    
+ }
+ @media screen and (max-width: 360px) {
+    .poce{
+        text-align: center;
+        background-color: rgb(18, 119, 119);
+        border: 3px solid;
+    display: inline-block;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -20px;
+    z-index: 1;
+    padding: 5px;
+    font-family: "Spicy Rice", serif;
+    font-size: 20px;
+    }
+    
+}
+    
+ @media screen and (max-width: 360px) {
+    .ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 20px;
+        
+    
+    }
+    
+ }
+ @media screen and (max-width: 360px) {
+
+    .pr{
+        width: 300px;
+        font-family:  "Kalam", "cursive";
+    
+    }
+    
+ }
+ @media screen and (max-width: 360px) {
+
+    .prm{
+        margin-top:0;
+    }
+    
+ }
+ @media screen and (max-width: 360px) {
+    h3, h4{
+        font-family: "Spicy Rice", serif ;
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 40px;
+        
+    }
+    
+ }
+ @media screen and (max-width: 360px) {
+    .table{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+    
+    }
+    
+ }
+ @media screen and (max-width: 360px) {
+    .detail{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-content: flex-start;
+        gap: 50px;
+        height: 2500px;
+        width: 100px;
+        padding: 30px;
+    }
+    
+ }
+ @media screen and (max-width: 360px) {
+    details{
+        margin: 5px;
+        
+        width: 300px;
+    
+        
+    }
+    
+ }
+ 
+ @media screen and (max-width: 360px) {
+
+
+    footer{
+        background-color: rgb(12, 119, 119);
+        height: 400px;
+    padding: 50px;
+    }
+    
+ }
+ @media screen and (max-width: 360px) {
+    .fotul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        }
+    
+ }
